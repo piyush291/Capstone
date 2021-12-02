@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 export const MainPage = () => {
     return (
+        <>
+        <p className="p-30"> </p>
         <div>
             <h1>Main Website Page </h1>
             <h3>This is going to be the main webpgae of our website from where we will be redirecting to the other pages for example till now we will be redirecting to the Admin and manufacturer page.</h3>
@@ -54,5 +56,6 @@ export const MainPage = () => {
             </div>
 
         </div>
+        </>
     )
 }
